@@ -90,6 +90,8 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(/Images/bg3.jpg);
+  background-size: cover;
 }
 
 main .container{
@@ -102,7 +104,7 @@ main .container{
 
 .info{
   height: 683px;
-  width: 1355px;
+  width: 1500px;
   background-color: #323235;
   border-radius: 20px;
   border: 1px solid #fff;
@@ -129,12 +131,25 @@ main .container{
 
 .info_main{
   display: flex;
+  height: 50%;
 }
 
 .info_main p {
   color: #fff;
   font-size: 40px;
   margin: 40px;
+}
+
+.info_foot{  
+  height: 30%;
+  display: flex;
+  align-items:end;
+}
+
+.info_foot p{
+  color: #fff;
+  font-size: 40px;
+  margin-left: 40px;
 }
 
 footer{

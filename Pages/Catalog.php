@@ -70,7 +70,7 @@
       <div class="container">
         <ul class="menu"> 
           <li>
-            <div class="li-head"><h2>Курс </h2><h2>«Инженер по тестированию»</h2></div>
+            <div class="li-head"><h2><a href="./aboutCurse.php">Курс  </a><a href="./aboutCurse.php">«Инженер по тестированию»</a></h2></div>
             <div class="li-main">
               <img src="/Images/Engener.png" alt="">
               <div class="description">
@@ -79,8 +79,8 @@
               </div>
             </div>
             <div class="li-foot">
-              <button class="button-active">Запистаться</button>
-              <a href="">Узнать подробности</a>
+              <button type="button" class="button_act"><a href="./aboutCurse.php">Запистаться</a></button>
+              <a class="about_curse" href="./aboutCurse.php"><span>Узнать подробности</span></a>
               <p>Сложность:</p>
               <p class="li-Complexity-txt">для начинающих</p>
             </div>
@@ -98,7 +98,7 @@
                 <li><a href="">Пользовательское соглашение</a></li>
                 <li><a href="">Создать курс</a></li>
                 <li><a href="">Контакты</a></li>
-                <li><a href="">О нас</a></li>
+                <li><a href="./aboutCompany.php">О нас</a></li>
             </ul>
             <span></span>
             <p>© Simply-learn 2022–2024. Все права защищены.</p>

@@ -54,10 +54,10 @@
     <main>
         <div class="Container">
             <div class="main_img">
-              <div class="main_txt">
-                <h2>Курс</h2>
-                <h2>«Инженер по тестированию»</h2>
-              </div>
+                <div class="main_txt">
+                    <h2>Курс</h2>
+                    <h2>«Инженер по тестированию»</h2>
+                </div>
             </div>
             <div class="container_main">
                 <div class="about_curse">
@@ -91,7 +91,7 @@
                 <li><a href="">Пользовательское соглашение</a></li>
                 <li><a href="">Создать курс</a></li>
                 <li><a href="">Контакты</a></li>
-                <li><a href="">О нас</a></li>
+                <li><a href="./aboutCompany.php">О нас</a></li>
             </ul>
             <span></span>
             <p>© Simply-learn 2022–2024. Все права защищены.</p>

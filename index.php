@@ -80,7 +80,7 @@
                 <li><a href="">Пользовательское соглашение</a></li>
                 <li><a href="">Создать курс</a></li>
                 <li><a href="">Контакты</a></li>
-                <li><a href="">О нас</a></li>
+                <li><a href="./Pages/aboutCompany.php">О нас</a></li>
             </ul>
             <span></span>
             <p>© Simply-learn 2022–2024. Все права защищены.</p>
