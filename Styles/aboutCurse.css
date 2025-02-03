@@ -125,8 +125,108 @@ main .Container{
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
+.container_main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #FFF;
+  padding-bottom: 50px;
+}
 
+.about_curse {
+  height: auto;
+  border-top: 1px solid #FFF;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  height: auto;
+}
 
+.buttons{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;  
+}
+
+.buttons a{
+  color: #000;
+  text-decoration: none;
+}
+
+.btn_join{
+  width: 150px;
+  height: 70px;
+  background-color: #32DC6F;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  transition: all 0.2s ease-in;
+}
+
+.btn_join a{
+  color: #000;
+}
+
+.btn_join:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 5px #FFF;
+}
+
+.btn_more{
+  width: 150px;
+  height: 50px;
+  background-color: #535353;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: all 0.2s ease-in;
+}
+
+.btn_more a{
+  color: #FFF;
+  font-weight: bold;
+}
+
+.btn_more:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 5px #FFF;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: auto;
+}
+
+.info_head {
+  display: flex;
+  flex-direction: row;
+}
+
+.diff{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.diff p{
+  margin-left: 10px;
+}
+
+.difficult{
+  font-size: 10;
+  color: #bbb;
+}
+
+.info_main{
+  margin-top: 20px;
+}
+
+.info_main p{
+  font-size: 20px;
+}
 
 footer{
   width: 100%;

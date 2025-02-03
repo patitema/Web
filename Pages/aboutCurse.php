@@ -59,25 +59,27 @@
                 <h2>«Инженер по тестированию»</h2>
               </div>
             </div>
-            <div class="about_curse">
-              <div class="buttons">
-                <button type="button>">
-                  <a href="">Записаться</a>
-                  <br>
-                  <p>1400Р</p>
-                </button>
-                <button type="button>">
-                  <a href="">Задать вопрос</a>
-                </button>
-              </div>
-              <div class="info">
-                <div class="info_head"><h3>О курсе</h3><p>сложность:</p><p>Для начинающих</p></div>
-                <div class="info_main">
-                  <p>Узнаете, как составлять отчёты о результатах тестирования, искать ошибки в сервисах и понимать их структуру, проводить ручное тестирование продукта 
-                  <br><br> 
-                  Закрепите знания на практике: протестируете веб-приложение Yandex Metro по готовым чек-листам и тест-кейсам</p>
+            <div class="container_main">
+                <div class="about_curse">
+                    <div class="buttons">
+                        <button class="btn_join" type="button>">
+                        <a href="">Записаться</a>
+                        <br>
+                        <p>1400Р</p>
+                        </button>
+                        <button class="btn_more" type="button>">
+                        <a href="">Задать вопрос</a> 
+                        </button>
+                    </div>
+                    <div class="info">
+                        <div class="info_head"><h3>О курсе</h3><div class="diff"><p>сложность:</p><p class="difficult">Для начинающих</p></div></span></div>
+                        <div class="info_main">
+                        <p>Узнаете, как составлять отчёты о результатах тестирования, искать ошибки в сервисах и понимать их структуру, проводить ручное тестирование продукта 
+                        <br><br> 
+                        Закрепите знания на практике: протестируете веб-приложение Yandex Metro по готовым чек-листам и тест-кейсам</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
         </div>
     </main>

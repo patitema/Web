@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
-    <link rel="stylesheet" href="/Styles/index.css">
+    <link rel="stylesheet" href="./Styles/index.css">
     <link rel="php" href="./validation-form/check.php">
     <link rel="php" href="./validation-form/auth.php">
 </head>
 <body>
     <nav>
         <div class="container">
-            <img class="logo" src="/Images/Logo.png" alt="">
+            <img class="logo" src="./Images/Logo.png" alt="">
             <ul class="PageList">
                 <li><a href="#">Главная</a></li>
-                <li><a href="/Pages/Catalog.php">Каталог</a></li>
+                <li><a href="./Pages/Catalog.php">Каталог</a></li>
             </ul>
             <button class="login" onclick="showContainer()"><p>Войти</p></button>
         </div>
@@ -35,7 +35,7 @@
                 <div class="col">
                     <button class="exit" onclick="closeWindow()"><img src="" alt=""><span></span></button>
                     <h1>Регистрация</h1>
-                    <form class="reg_form" action="/validation-form/check.php" method="post">
+                    <form class="reg_form" action="./validation-form/check.php" method="post">
                     <input type="text" class="form-control" name="login" id="login" placeholder="Login">
                     <input type="password" class="form-control" name="password" id="password" placeholder="Password">
                     <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm password">
@@ -49,7 +49,7 @@
             <div class="col">
                 <button class="exit" onclick="closeWindow()"><img src="" alt=""><span></span></button>
                 <h1>Вход</h1>
-                <form class="auth_form" action="/validation-form/auth.php" method="post">
+                <form class="auth_form" action="./validation-form/auth.php" method="post">
                     <input type="text" class="form-control" name="login" id="login" placeholder="Login">
                     <br>
                     <input type="password" class="form-control" name="password" id="password"   placeholder="Password">
@@ -86,6 +86,6 @@
             <p>© Simply-learn 2022–2024. Все права защищены.</p>
         </div>
     </footer>
-    <script src="/scripts/authwindow.js"></script>
+    <script src="./scripts/authwindow.js"></script>
 </body>
 </html>
