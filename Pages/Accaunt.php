@@ -20,27 +20,35 @@
     <main>
         <div class="Container">
             <div class="info">
-            <div class="info_head"><h2>Личные данные</h2></div>
-            <div class="info_main">
-                <ul>
-                    <li><p>Имя: <span>Артём</span></p></li>
-                    <li><p>Почта: <span>*************@gmail.com</span></p></li>
-                    <li><p>Пароль: <span>******</span></p></li>
-                </ul>
-                <div class="active_curses">
-                    <p>Активные курсы</p>
+                <div class="info_head"><h2>Личные данные</h2></div>
+                <div class="info_main">
                     <ul>
-                        <li></li>
+                        <li><p>Имя: <span>Артём</span></p></li>
+                        <li><p>Почта: <span>*************@gmail.com</span></p></li>
+                        <li><p>Пароль: <span>******</span><a class="change_pass" href="">Сменить пароль</a></p></li>
+                        
                     </ul>
+                    <div class="active_curses">
+                        <p>Активные курсы</p>
+                        <ul>
+                            <li><img src="/Images/Engener.png" alt=""></li>
+                            <li><img src="/Images/Engener.png" alt=""></li>
+                            <li><img src="/Images/Engener.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="passed_curses">
+                        <p>Пройденые курсы</p>
+                        <ul>
+                            <li><img src="/Images/Engener.png" alt=""></li>
+                            <li><img src="/Images/Engener.png" alt=""></li>
+                            <li><img src="/Images/Engener.png" alt=""></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="passed_curses">
-                    <p>Пройденые курсы</p>
-                    <ul>
-                        <li></li>
-                    </ul>
+                <div class="info_foot">
+                    <a href="">Стать препадователем</a>
+                    <a class="logout" href="">Выйти</a>
                 </div>
-            </div>
-            <div class="info_foot"><a href="">Стать препадователем</a><a class="logout" href="">Выйти</a></div>
             </div>
         </div>
     </main>
@@ -52,7 +60,7 @@
                 <li><a href="">Пользовательское соглашение</a></li>
                 <li><a href="">Создать курс</a></li>
                 <li><a href="">Контакты</a></li>
-                <li><a href="">О нас</a></li>
+                <li><a href="/Pages/aboutCompany.php">О нас</a></li>
             </ul>
             <span></span>
             <p>© Simply-learn 2022–2024. Все права защищены.</p>
