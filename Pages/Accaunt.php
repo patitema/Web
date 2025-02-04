@@ -20,12 +20,27 @@
     <main>
         <div class="Container">
             <div class="info">
-            <div class="info_head"><h2>О компании</h2></div>
-            <div class="info_main"><p>Simply-Learn - сибирская компания с 2-х летним стажем работы в сфере продажи курсов. 
-                На нашем счету 200+ тыс клиентов, 1000+ препадователей и более 2-х тысяч проданых курсов. <br><br>
-            Основатель Simply-Learn: Авхимович А.П - также непосредственно учавствующий в разработке и функционировании проекта.</p>
+            <div class="info_head"><h2>Личные данные</h2></div>
+            <div class="info_main">
+                <ul>
+                    <li><p>Имя: <span>Артём</span></p></li>
+                    <li><p>Почта: <span>*************@gmail.com</span></p></li>
+                    <li><p>Пароль: <span>******</span></p></li>
+                </ul>
+                <div class="active_curses">
+                    <p>Активные курсы</p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="passed_curses">
+                    <p>Пройденые курсы</p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
             </div>
-            <div class="info_foot"><p>Оффис компании находится в г.Барнаул по улице "Юрина, 194а 2э"</p></div>
+            <div class="info_foot"><a href="">Стать препадователем</a><a class="logout" href="">Выйти</a></div>
             </div>
         </div>
     </main>
