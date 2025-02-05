@@ -103,11 +103,9 @@ flex-direction: column;
 width: 1920px;
 height: auto;
 background-color: #151515;
-
 }
 
 .info_head{
-
 height: 70px;
 display: flex;
 margin-left: auto;
