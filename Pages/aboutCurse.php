@@ -19,38 +19,38 @@
             <button class="login" onclick="showContainer()"><p>Войти</p></button>
         </div>
     </nav>
-    <header>
-    <div class="auth-window">
-        <div class="container-auth-register">
-            <div class="row">
+    <article>
+        <div class="auth-window">
+            <div class="container-auth-register">
+                <div class="row">
+                    <div class="col">
+                        <button class="exit" onclick="closeWindow()"><img src="" alt=""><span></span></button>
+                        <h1>Регистрация</h1>
+                        <form class="reg_form" action="/validation-form/check.php" method="post">
+                        <input type="text" class="form-control" name="login" id="login" placeholder="Login">
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm password">
+                        <button class="btn" type="submit"><p>Зарегистрироваться</p></button>
+                        </form>
+                        <button type="button>" class="btn-sec" onclick="showContainer()"><p>Войти</p></button>
+                    </div>   
+                </div>
+            </div>
+            <div class="container-auth-login">
                 <div class="col">
                     <button class="exit" onclick="closeWindow()"><img src="" alt=""><span></span></button>
-                    <h1>Регистрация</h1>
-                    <form class="reg_form" action="/validation-form/check.php" method="post">
-                    <input type="text" class="form-control" name="login" id="login" placeholder="Login">
-                    <input type="password" class="form-control" name="password" id="password" placeholder="Password">
-                    <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm password">
-                    <button class="btn" type="submit"><p>Зарегистрироваться</p></button>
+                    <h1>Вход</h1>
+                    <form class="auth_form" action="/validation-form/auth.php" method="post">
+                        <input type="text" class="form-control" name="login" id="login" placeholder="Login">
+                        <br>
+                        <input type="password" class="form-control" name="password" id="password"   placeholder="Password">
+                        <button class="btn" type="submit"><p>Войти</p></button>
                     </form>
-                    <button type="button>" class="btn-sec" onclick="showContainer()"><p>Войти</p></button>
-                </div>   
+                    <button type="button>" class="btn-sec" onclick="showContainer_reg()"><p>Зарегистрироваться</p></button>
+                </div>
             </div>
         </div>
-        <div class="container-auth-login">
-            <div class="col">
-                <button class="exit" onclick="closeWindow()"><img src="" alt=""><span></span></button>
-                <h1>Вход</h1>
-                <form class="auth_form" action="/validation-form/auth.php" method="post">
-                    <input type="text" class="form-control" name="login" id="login" placeholder="Login">
-                    <br>
-                    <input type="password" class="form-control" name="password" id="password"   placeholder="Password">
-                    <button class="btn" type="submit"><p>Войти</p></button>
-                </form>
-                <button type="button>" class="btn-sec" onclick="showContainer_reg()"><p>Зарегистрироваться</p></button>
-            </div>
-        </div>
-    </div>
-    </header>
+    </article>
     <main>
         <div class="Container">
             <div class="main_img">

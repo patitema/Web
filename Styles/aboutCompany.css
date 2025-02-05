@@ -207,8 +207,9 @@ footer .container p{
 
 .container-auth-login, .container-auth-register{
   position: fixed;
-  margin-top: 25vh;
-  margin-left: 75vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: solid 1px white;
   border-radius: 20px;
   display: none;
