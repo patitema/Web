@@ -410,6 +410,7 @@ form .btn{
 
 form .btn:hover{
   transform: scale(1.1);
+  box-shadow: 0 0 5px #32DC6F;
 }
 
 form .btn p{

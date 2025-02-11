@@ -192,6 +192,7 @@ main .container{
   padding-bottom: 20px;
   width: 700px;
   height: auto;
+  margin-top: 40px;
   
 }
 
@@ -468,11 +469,12 @@ form .btn{
 
 form .btn:hover{
   transform: scale(1.1);
+  box-shadow: 0 0 5px #32DC6F;
 }
 
 form .btn p{
   font-size: 17px;
-  color: white;
+  color: #252525;
   font-weight: bold;
 }
 
